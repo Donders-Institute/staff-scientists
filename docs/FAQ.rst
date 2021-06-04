@@ -10,3 +10,6 @@ MEG
 ---
 
 * How do I get beamed up by Scotty? :-p
+
+.. tip::
+   Your question is not here? You can also `search <https://github.com/Donders-Institute/staff-scientists/issues?q=>`__ through our (open and closed) issues
