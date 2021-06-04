@@ -1,4 +1,12 @@
 Frequently Asked Questions
 ==========================
 
- * Everything you always wanted to know about science but were too afraid to ask :-)
+MRI
+---
+
+* Everything you always wanted to know about science but were too afraid to ask :-)
+
+MEG
+---
+
+* How do I get beamed up by Scotty? :-p
