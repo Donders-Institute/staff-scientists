@@ -1,14 +1,14 @@
 ---
-name: Bug report
-about: Create a report to help us improve
+name: Analysis software issue
+about: I have a problem with a particular software
 title: ''
-labels: unconfirmed,bug
+labels: unconfirmed,software
 assignees: ''
 
 ---
       
-**Describe the bug**
-A clear and concise description of what the bug is.
+**Describe the issue**
+A clear and concise description of the issue.
 
 **To Reproduce**
 Steps to reproduce the behavior:
@@ -24,9 +24,9 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Environment and versions (please complete the following information):**
- - Operating System: [e.g. Windows 10]
- - MATLAB version [e.g. R2019b, type `ver`]
- - FieldTrip version [e.g. 2020312, or "most recent master branch from github", type `ft_version`]
+ - Operating System: [e.g. Linux, Windows 10]
+ - Analysis software: [e.g. MATLAB, FSL, R]
+ - Software version.
 
 **Additional context**
 Add any other context about the problem here.
