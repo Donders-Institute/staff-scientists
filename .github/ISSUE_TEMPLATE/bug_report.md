@@ -10,6 +10,11 @@ assignees: ''
 **Describe the issue**
 A clear and concise description of the issue.
 
+**Describe yourself**
+1. Name
+2. Function
+3. PI group
+
 **To Reproduce**
 Steps to reproduce the behavior:
 1. Go to '...'
