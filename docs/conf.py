@@ -49,3 +49,6 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 html_static_path   = ['_static']
 master_doc         = 'index'
 highlight_language = "none"
+
+html_favicon = "_static/donders_logo.png"
+html_logo = "_static/donders_logo.png"
