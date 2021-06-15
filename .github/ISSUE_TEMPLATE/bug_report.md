@@ -2,11 +2,11 @@
 name: Analysis software issue
 about: I have a problem with a particular software
 title: ''
-labels: unconfirmed,software
+labels: ''
 assignees: ''
 
 ---
-      
+
 **Describe the issue**
 A clear and concise description of the issue.
 
