@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: FieldTrip community forum
-    url: http://www.fieldtriptoolbox.org/discussion_list/
-    about: Please ask questions about the use of the toolbox here.
-  - name: Direct contact with the maintainers
-    url: http://www.fieldtriptoolbox.org/contact/#contact
-    about: Please use this for questions that are not suitable for public discussion.
+  - name: Frequently asked questions
+    url: https://staff-scientists-dccn.readthedocs.io
+    about: Please check our FAQ before posting an issue.
+  - name: Direct contact with the staffscientists
+    url: https://mattermost.socsci.ru.nl/dccn/channels/staff-scientists-dccn
+    about: You can also reach us on mattermost
