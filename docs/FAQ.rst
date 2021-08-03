@@ -1,10 +1,16 @@
 Frequently Asked Questions
 ==========================
 
+General
+---
+
+* :doc: `How to save well-rendered figures created by a non-interactive MATLAB session deployed by qsubcellfun/qsubfeval? <FAQ/HPC/qsubfeval_plotting.rst/>`
+
 MRI
 ---
 
 * Everything you always wanted to know about science but were too afraid to ask :-)
+* :doc: `How to do searchlight hyperalignment with pymvpa? <FAQ/MRI/hyperalignment.rst/>`
 
 MEG
 ---
