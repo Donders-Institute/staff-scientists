@@ -4,7 +4,7 @@ Frequently Asked Questions
 General
 -------
 
-* `How to save well-rendered figures created by a non-interactive MATLAB session deployed by qsubcellfun/qsubfeval? <qsubfeval_plotting.html>`__
+* `How to save well-rendered figures created by a non-interactive MATLAB session deployed by qsubcellfun/qsubfeval? <FAQ/qsubfeval_plotting.html>`__
 
 MRI
 ---
