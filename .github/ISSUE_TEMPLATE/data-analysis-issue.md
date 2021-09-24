@@ -15,6 +15,9 @@ A clear and concise description of the issue.
 2. Function
 3. PI group
 
+**Audience**
+Projects or research groups that benefit from solving this issue
+
 **Test data**
 You can find a test dataset that illustrates the issue here: '..'
 
