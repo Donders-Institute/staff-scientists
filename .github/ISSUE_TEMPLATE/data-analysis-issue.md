@@ -15,6 +15,9 @@ A clear and concise description of the issue.
 2. Function
 3. PI group
 
+**Test data**
+You can find a test dataset that illustrates the issue here: '..'
+
 **To Reproduce**
 Steps to reproduce the behavior:
 1. Go to '...'
