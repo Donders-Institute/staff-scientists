@@ -27,7 +27,7 @@ The easiest way to check whether you are affected is to compute a powerspectrum 
   
   % let's go for about 10 minutes of data, or less
   cfg.trl = trl(1:min(size(trl,1),12*10),:);
-  cfg.channel = {'MEG};
+  cfg.channel = {'MEG'};
   cfg.demean  = 'yes';
   cfg.continuous = 'yes';
   data = ft_preprocessing(cfg);
