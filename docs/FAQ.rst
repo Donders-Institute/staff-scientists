@@ -15,6 +15,7 @@ MRI
 MEG
 ---
 
+* `What can I do about the 20Hz + harmonics artifact in the MEG? <FAQ/MEG/camera_artifact.html>`__
 * How do I get beamed up by Scotty? :-p
 
 .. tip::
