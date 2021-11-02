@@ -32,7 +32,7 @@ The easiest way to check whether you are affected is to compute a powerspectrum 
   cfg.continuous = 'yes';
   data = ft_preprocessing(cfg);
   
-  % this may be needed, because there's some chunk of bad data in this recording
+  % this may be needed, because there may be some chunks of bad data in this recording, that occlude the artifact
   S = [];
   for kk = 1:numel(data.trial)
     S(:,kk) = std(data.trial{kk},[],2);
@@ -42,4 +42,15 @@ The easiest way to check whether you are affected is to compute a powerspectrum 
   cfg = [];
   cfg.trials = find(mean(S)<2);
   data = ft_selectdata(cfg, data);
+    
+  cfg = [];
+  cfg.method  = 'mtmfft';
+  cfg.output  = 'pow';
+  cfg.foilim  = [0 200];
+  cfg.taper   = 'hanning';
+  cfg.channel = 'MEG';
+  freq      = ft_freqanalysis(cfg, data);
+  
+  figure;
+  plot(freq.freq,mean(log10(freq.powspctrm))); title('powerspectrum','interpreter','none'); ylim([-30 -27]);
   
