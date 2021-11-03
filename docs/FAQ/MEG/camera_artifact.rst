@@ -121,3 +121,6 @@ One way to reduce artifacts that originate from far away from the MEG sensors, i
   figure;
   subplot(2,2,1); plot(freq.freq,mean(log10(freq.powspctrm))); title('original','interpreter','none'); ylim([-30 -27]);
   subplot(2,2,2); plot(freq_G3BR.freq,mean(log10(freq_G3BR.powspctrm))); title('G3BR','interpreter','none'); ylim([-30 -27]);
+
+.. note::
+  Note that in the above code example the data are epoched to 5-second chunks. Obviously, you should replace the trl definition with the one that you deem fit for your data.
