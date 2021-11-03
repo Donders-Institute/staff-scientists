@@ -55,8 +55,8 @@ The easiest way to check whether you are affected is to compute a powerspectrum 
   figure;
   plot(freq.freq,mean(log10(freq.powspctrm))); title('powerspectrum','interpreter','none'); ylim([-30 -27]);
 
-What can be done about it, and do I need to?
-============================================
+Do I need to do something about it?
+===================================
 
 If your data is affected, it depends a bit on the data analysis requirements whether or not you need to do anything about this artifact. Specifically:
 
@@ -68,6 +68,9 @@ If your analysis is in the spectral domain, you may consider using the dftfilter
 .. note::
   One note with respect to dftfiltering: if the artifact's amplitude is not stationary over time, the dftfilter might not be capable of removing the
   artifact well. This is due to the fact that the spectral artifacts get some bandwidth due to the amplitude fluctuations. This could be alleviated with including some extra flanking frequencies in the dftfreq option for ft_preprocessing. These frequencies need to be specified in line with the intrinsic frequency resolution as dictated by the epoch lengths.
+
+What can be done about it?
+==========================
   
 One way to reduce artifacts that originate from far away from the MEG sensors, is to use the signals picked up by the reference coils, that are located higher up in the MEG dewar. Subtracting a well-chosen linear combination of those reference signals, may remove a large part of the artifact. In CTF-speak, one of these techniques is called higher order gradient balancing, specifically 3d order gradient balancing. This 3d order gradient balancing is implemented in FieldTrip in the ft_denoise_synthetic function. It can be applied to the data as follows:
 
