@@ -2,7 +2,7 @@
 What to do with the 20 Hz + harmonics artifact in the MEG?
 **********************************************************
 
-Since its introduction in 2018, there is an artifact in the MEG signals, caused by the light camera in the MSR. Data that has been collected between early July 2018 and <some-date-in-the-future-once-it-is resolved> is most likely affected.
+Since its introduction in 2018, there is an artifact in the MEG signals, caused by the light camera in the MSR. Data that has been collected between early July 2018 and <some-date-in-the-future-once-it-is-resolved-unless-you-switch-off-the-camera> is most likely affected.
 
 What's wrong?
 =============
