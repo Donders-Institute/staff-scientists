@@ -69,7 +69,7 @@ If your analysis is in the spectral domain, you may consider using the dftfilter
   One note with respect to dftfiltering: if the artifact's amplitude is not stationary over time, the dftfilter might not be capable of removing the
   artifact well. This is due to the fact that the spectral artifacts get some bandwidth due to the amplitude fluctuations. This could be alleviated with including some extra flanking frequencies in the dftfreq option for ft_preprocessing. These frequencies need to be specified in line with the intrinsic frequency resolution as dictated by the epoch lengths.
   
-One way to reduce artifacts that originate from far away from the MEG sensors, is to use the signals picked up by the reference coils, that are located higher up in the MEG dewar. Subtracting a well-chosen linear combination of those reference signals, may remove a large part of the artifact. In CTF-speak, one of these techinques is called higher order gradient balancing, specifically 3d order gradient balancing. This 3d order gradient balancing is implemented in FieldTrip in the ft_denoise_synthetic function. It can be applied to the data as follows:
+One way to reduce artifacts that originate from far away from the MEG sensors, is to use the signals picked up by the reference coils, that are located higher up in the MEG dewar. Subtracting a well-chosen linear combination of those reference signals, may remove a large part of the artifact. In CTF-speak, one of these techniques is called higher order gradient balancing, specifically 3d order gradient balancing. This 3d order gradient balancing is implemented in FieldTrip in the ft_denoise_synthetic function. It can be applied to the data as follows:
 
 .. code-block:: matlab
 
