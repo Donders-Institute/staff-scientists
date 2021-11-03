@@ -53,4 +53,18 @@ The easiest way to check whether you are affected is to compute a powerspectrum 
   
   figure;
   plot(freq.freq,mean(log10(freq.powspctrm))); title('powerspectrum','interpreter','none'); ylim([-30 -27]);
+
+What can be done about it, and do I need to?
+============================================
+
+If your data is affected, it depends a bit on the data analysis requirements whether or not you need to do anything about this artifact. Specifically:
+
+1. If you intend to perform your crucial analysis in source space, using      beamformers, you probably don't need to worry at all. The beamformer spatial filtering algorithm will be able to suppress signal sources that originate from outside the scanned dipole-locations-of-interest, so the artifact will probably be effectively suppressed. Note, that if you use a distributed source reconstruction technique, e.g. minimum norm estimation, then you are not off the hook, and you need to think a bit about proper noise regularisation.
+2. If you intend to investigate your signals in the time domain (ERF), you might try a series of 'dftfilters' at 20 Hz and its higher harmonics (e.g. [20 40 60]). Since you will lowpassfilter your data most of the time anyhow it is probably not needed to go beyond 20 and 40 Hz for the dftfilter.
+
+If your analysis is in the spectral domain, you may consider using the dftfilter as mentioned above. The dftfilter approach is probably insufficient if your analysis requires an accurate estimation of (e.g. beta band) spectral parameters, band-limited power, peak frequency, or phase estimates, for frequencies in the vicinity of the artifact frequencies.
+
+.. note::
+  One note with respect to dftfiltering: if the artifact's amplitude is not stationary over time, the dftfilter might not be capable of removing the
+  artifact well. This is due to the fact that the spectral artifacts get some bandwidth due to the amplitude fluctuations. This could be alleviated with including some extra flanking frequencies in the dftfreq option for ft_preprocessing. These frequencies need to be specified in line with the intrinsic frequency resolution as dictated by the epoch lengths.
   
