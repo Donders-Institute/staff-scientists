@@ -121,7 +121,7 @@ the data for the drifting artifact, requiring a per segment peak detection. This
   %% 6) PCA
   cfg          = [];
   cfg.method   = 'pca';
-  cfg.cellmode = 'yes';
+  %cfg.cellmode = 'yes'; % note this does not work yet, let's hope you have enough RAM
   comp         = ft_componentanalysis(cfg, data);
 
   V = zeros(numel(comp.label), numel(comp.trial));
