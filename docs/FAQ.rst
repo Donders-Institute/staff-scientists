@@ -16,7 +16,7 @@ MEEG
 ---
 
 * `What can I do about the 20Hz + harmonics artifact in the MEG? <FAQ/MEG/camera_artifact.html>`__
-* `Am I affected by the early 2022 RF artifat, and what can be done about it? <FAQ/MEG/rf_artifact.html>`__
+* `Am I affected by the early 2022 RF artifact, and what can be done about it? <FAQ/MEG/rf_artifact.html>`__
 * `How to deal with anatomical MRIs that were acquired with an EEG cap on the subject's head? <FAQ/MEG/eeg_headmodel.html>`__
 * How do I get beamed up by Scotty? :-p
 
