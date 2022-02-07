@@ -40,7 +40,7 @@ the data for the drifting artifact, requiring a per segment peak detection. This
 
   %% 1) read in subset of data for artifact peak detection
   cfg = [];
-  cfg.dataset = dataset;
+  cfg.dataset = dataset; % define dataset to be the name of the dataset that you want to analyse/clean
   hdr = ft_read_header(cfg.dataset);
 
   % quick and dirty 5 second chunks
