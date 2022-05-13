@@ -73,6 +73,7 @@ the data for the drifting artifact, requiring a per segment peak detection. This
   ylabel('time (s)');
 
 .. image:: images/rf_artifact.png
+   :scale: 50%
 
 .. code-block:: matlab
 
