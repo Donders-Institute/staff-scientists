@@ -109,7 +109,7 @@ the data for the drifting artifact, requiring a per segment peak detection. This
 .. image:: images/rf_peakdetect.png
    :width: 400px
 
-The figure appears upside down with respect to the previous one: don't worry about it, that's a MATLAB plotting feature.
+The figure appears upside down with respect to the previous one: don't worry about it, that's a MATLAB plotting feature. The take home message is that for each 'trial' the peak frequency (and occasionally one of it's sidelobes) is identified.
 
 .. code-block:: matlab
 
