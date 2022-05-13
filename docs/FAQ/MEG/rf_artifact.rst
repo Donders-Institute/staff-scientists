@@ -72,6 +72,10 @@ the data for the drifting artifact, requiring a per segment peak detection. This
   xlabel('frequency (Hz)');
   ylabel('time (s)');
 
+.. image:: images/rf_artifact.png
+
+.. code-block:: matlab
+
   %% 3) detect peak to be used for PCA preprocessing
   pow   = squeeze(mean(log10(freq.powspctrm),2));
   pow   = imgaussfilt(pow, 2); % requires imageprocessing toolbox
