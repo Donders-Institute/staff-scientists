@@ -106,7 +106,7 @@ the data for the drifting artifact, requiring a per segment peak detection. This
   plot(M, 1:size(pow,1), 'wo');
   axis xy; axis tight
 
-.. image:: images/rf_artifact.png
+.. image:: images/rf_peakdetect.png
    :width: 400px
 
 The figure appears upside down with respect to the previous one: don't worry about it, that's a MATLAB plotting feature.
