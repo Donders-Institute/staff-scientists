@@ -10,7 +10,8 @@ This is the consultancy page for the DCCN staff scientists where you can:
 * Follow the progress of our `projects <https://github.com/Donders-Institute/staff-scientists/projects>`__
 
 .. tip::
-   You can also reach us at `MatterMost <https://mattermost.socsci.ru.nl/dccn/channels/staff-scientists-dccn>`__ for brief questions, interactive chats and discussions. For documentation, see staff-scientists-dccn.readthedocs.io
+   - You can also reach us at `MatterMost <https://mattermost.socsci.ru.nl/dccn/channels/staff-scientists-dccn>`__ for brief questions, interactive chats and discussions
+   - More documentation can be found `here <https://staff-scientists-dccn.readthedocs.io>`__
 
 (small) Disclaimer
 ##################
