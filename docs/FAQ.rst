@@ -4,8 +4,6 @@ Frequently Asked Questions
 General
 -------
 
-* `How to save well-rendered figures created by a non-interactive MATLAB session deployed by qsubcellfun/qsubfeval? <FAQ/HPC/qsubfeval_plotting.html>`__
-
 MRI
 ---
 
@@ -19,6 +17,12 @@ M/EEG
 * `How to deal with anatomical MRIs that were acquired with an EEG cap on the subject's head? <FAQ/MEG/eeg_headmodel.html>`__
 * `How to align Eyelink eyetracker asc-files with MEG data? <FAQ/MEG/meg_eyelink.html>`__
 * How do I get beamed up by Scotty? :-p
+
+matlab
+-----
+
+* `How to save well-rendered figures created by a non-interactive MATLAB session deployed by qsubcellfun/qsubfeval? <FAQ/HPC/qsubfeval_plotting.html>`__
+* `Is there a sign problem with the decision values when using libsvm's SVM in MVPA-Light? <FAQ/matlab/libsvm_mvpalight_dval.html>`
 
 .. tip::
    Your question is not here? You can also `search <https://github.com/Donders-Institute/staff-scientists/issues?q=>`__ through our (open and closed) issues
