@@ -15,6 +15,7 @@ How to check whether my analyses are affected?
 The following snippet of MATLAB-code can be used to evaluate whether your setup has this bug.
 
 .. code-block:: matlab
+
   %%
   
   % set up the environment, only needed if you want to test from scratch,
