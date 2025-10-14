@@ -14,7 +14,7 @@
 # -- Project information -----------------------------------------------------
 
 project   = 'Staff-scientists-DCCN'
-copyright = '2021, DCCN'
+copyright = '2021-{date.today().year}, DCCN'
 author    = 'Marcel Zwiers'
 
 # -- General configuration ---------------------------------------------------
@@ -22,7 +22,7 @@ author    = 'Marcel Zwiers'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions     = ['recommonmark']
+extensions     = ['myst_parser', 'sphinx_design']
 source_suffix  = {'.rst': 'restructuredtext',
                   '.md': 'markdown'}
 
