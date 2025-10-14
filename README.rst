@@ -11,7 +11,7 @@ This is the consultancy page for the DCCN staff scientists where you can:
 
 .. tip::
    - You can also reach us at `MatterMost <https://mattermost.socsci.ru.nl/dccn/channels/staff-scientists-dccn>`__ for brief questions, interactive chats and discussions
-   - More documentation can be found `here <https://staff-scientists-dccn.readthedocs.io>`__
+   - The documentation is hosted at `Read The Docs <https://staff-scientists-dccn.readthedocs.io>`__
 
 (small) Disclaimer
 ##################
