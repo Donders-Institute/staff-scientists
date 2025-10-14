@@ -7,8 +7,6 @@ What's wrong?
 
 When using MVPA-Light (e.g. mv_classify), in combination with an SVM-classifier as implemented in the libsvm  library, the decision values may get flipped, causing cross-validated accuracies (and other performance metrics)to be miscalculated (if they are calculated from the 'dval', rather than from the decoded classes directly).
 
-Early 2022 the MEG seems to be affected (occasionally) by a high-frequency artifact that seems to be caused by RF-noise entering the MSR, which interacts with the MEG electronics to generate a high frequency artifact in the signals that drifts over time (in terms of peak frequency). The frequency of the artifact is usually well beyond the physiological range, so can be dealt with by lowpass filtering. However, sometimes the peak frequency drifts into the range of phsysiological activity, which makes lowpass filtering useless. 
-
 How to check whether my analyses are affected?
 ==============================================
 
