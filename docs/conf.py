@@ -14,7 +14,7 @@
 # -- Project information -----------------------------------------------------
 
 project   = 'Staff-scientists-DCCN'
-copyright = '2021-{date.today().year}, DCCN'
+copyright = f'2021-{date.today().year}, DCCN'
 author    = 'Marcel Zwiers'
 
 # -- General configuration ---------------------------------------------------
